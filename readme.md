@@ -52,7 +52,7 @@ npm run dev
 # In another terminal, start backend
 cd ../server
 npm install
-npm run start
+npm run server
 ```
 
 ---
@@ -79,7 +79,9 @@ Password: yourpassword
 
 | User View | Admin Panel |
 |-----------|-------------|
-| ![User View](link-to-user-screenshot) | ![Admin Panel](link-to-admin-screenshot) |
+|<img width="1903" height="916" alt="image" src="https://github.com/user-attachments/assets/9ff9f8a8-9705-4429-941a-506e1425926a" />
+|<img width="1888" height="917" alt="image" src="https://github.com/user-attachments/assets/2309ac31-721f-4a06-8955-30ee2d41f42f" />
+|
 
 ---
 
