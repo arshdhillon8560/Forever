@@ -1,8 +1,18 @@
-  {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/"
+{
+  "projects": [
+    {
+      "src": "client/",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
       }
-    ]
-  }
+    },
+    {
+      "src": "admin/",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ]
+}
